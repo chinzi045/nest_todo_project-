@@ -1,0 +1,76 @@
+.main_active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.todo_type {
+  width: 300px;
+  padding: 14px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px 0px;
+  border-radius: 4px;
+}
+.todo_btn {
+  color: white;
+  background-color: rgb(24, 144, 192);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 140px;
+  font-weight: bold;
+}
+.added_todo {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px 0px;
+  width: 330px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px;
+}
+.mark_btn {
+  width: 120px;
+  height: 30px;
+  color: white;
+  background-color: rgb(24, 144, 192);
+  border-radius: 12px;
+  border: none;
+
+  cursor: pointer;
+}
+.delete_btn {
+  width: 70px;
+  height: 30px;
+  color: white;
+  background-color: rgb(223, 55, 55);
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.uncompleted_todos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* margin-left: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+.input_error {
+  color: red;
+  font-size: 13px;
+}
+.input_div {
+  height: 65px;
+  width: auto;
+  /* border: 1px solid black; */
+  text-align: center;
+}

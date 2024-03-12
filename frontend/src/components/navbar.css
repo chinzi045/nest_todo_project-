@@ -1,0 +1,43 @@
+.main_link {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  font-weight: bold;
+  border-bottom: 1px solid skyblue;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;   */
+  align-items: center;
+  background-color: rgb(190, 240, 240);
+  padding: 7px;
+  font-weight: bold;
+}
+.logo_img {
+  width: 53px;
+  height: 43px;
+  /* background-color: black; */
+}
+.lefy {
+  margin-left: 900px;
+}
+.btn_logout {
+  width: 70px;
+  padding: 9px;
+  background-color: rgb(20, 102, 134);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-left: 900px;
+}

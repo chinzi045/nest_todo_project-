@@ -1,0 +1,35 @@
+.completed_todos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todos_container {
+  width: 200px;
+  height: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px 0px;
+  border-radius: 6px;
+  padding: 12px;
+}
+.todos_btn {
+  background-color: rgb(241, 35, 35);
+  padding: 9px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.completed_todoss {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
